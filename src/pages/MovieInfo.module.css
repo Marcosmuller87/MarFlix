@@ -1,0 +1,23 @@
+.infoContainer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.column {
+  max-width: 400px;
+  margin: 15px;
+  height: 80vh;
+}
+
+.moviePoster {
+  border-radius: 10px;
+}
+
+.movieInfo {
+  font-size: 1.5rem;
+}
+
+.firstInfo {
+  margin-top: 0.5;
+}

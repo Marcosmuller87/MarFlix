@@ -1,0 +1,9 @@
+.title,
+.subtitle {
+  text-align: center;
+  text-shadow: #fff 0 0 10px;
+}
+
+.title:hover {
+  transform: scale(1.2);
+}

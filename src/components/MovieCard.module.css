@@ -1,0 +1,27 @@
+.movieCard {
+  list-style: none;
+  font-size: 1.4rem;
+  text-align: center;
+  overflow: hidden;
+}
+
+.movieImg {
+  background-color: rgb(241, 241, 241);
+  transition: 0.3s ease-in-out;
+}
+
+.movieImg:hover {
+  transform: scale(1.05);
+  opacity: 0.8;
+}
+
+@media (max-width: 560px) {
+  .movieImg {
+    width: 90%;
+    height: auto;
+  }
+}
+
+.movieTitle {
+  margin-top: 0.5rem;
+}

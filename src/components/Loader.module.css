@@ -1,0 +1,14 @@
+.loader {
+  display: flex;
+  justify-content: center;
+}
+
+.loading {
+  animation: loader 1s linear infinite;
+}
+
+@keyframes loader {
+  to {
+    transform: rotate(360deg);
+  }
+}
